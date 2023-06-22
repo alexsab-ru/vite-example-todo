@@ -5,6 +5,11 @@ on:
     branches:
       - master
 
+permissions:
+  id-token: write
+  contents: write
+
+
 jobs:
   gh-pages:
     concurrency: ci-${{ github.ref }}
