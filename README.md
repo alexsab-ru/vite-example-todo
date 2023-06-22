@@ -13,3 +13,11 @@ $ pnpm i # https://pnpm.io
 
 $ pnpm dev
 ```
+
+Build command (for test build on local)
+
+```bash
+$ pnpm build
+
+$ pnpm preview
+```
